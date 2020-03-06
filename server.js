@@ -73,7 +73,6 @@ function createSession(studentID, password) {
       console.log(e);
     });
 }
-createSession("10023088", "Hill@197");
 
 function auth(studentID, password, sessionID) {
   exec(
